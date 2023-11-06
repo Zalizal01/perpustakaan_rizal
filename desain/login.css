@@ -1,0 +1,83 @@
+.judul {
+  text-align: center;
+  font-size: 36px;
+  margin: 30px 0;
+  color: #fff;
+  text-shadow: 1px 1px #333;
+}
+
+body {
+  background-image: url("image/bgindex2.jpg");
+  background-size: cover;
+}
+
+.box-login {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #000;
+}
+
+.form-login {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff;
+  text-shadow: 1px 1px #333;
+}
+
+.validasi {
+  color: red;
+  margin-bottom: 20px;
+}
+
+.input-login {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+}
+
+.btn-login {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px #000;
+}
+
+.btn-login:hover {
+  background-color: #45a049;
+}
+
+/* media query for smaller screens */
+@media (max-width: 600px) {
+  .judul {
+    font-size: 28px;
+  }
+  .box-login {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .form-login {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .input-login {
+    padding: 8px 16px;
+  }
+  .btn-login {
+    padding: 10px 16px;
+  }
+}
